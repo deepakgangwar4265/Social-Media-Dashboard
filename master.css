@@ -1,0 +1,272 @@
+@font-face {
+  font-family: inter;
+  src: url(Inter-VariableFont_slnt,wght.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  transition: all ease 0.2s;
+}
+body{
+  font-family: inter;
+  color: hsl(228, 12%, 44%);
+  font-size: 11px;
+}
+#main{
+  width: 100%;
+  height: 100%;margin: 0;
+}
+.main-light{
+  background-color: white;
+}
+.main-dark{
+  background-color: hsl(230, 17%, 14%);
+}
+#hero{
+  width: 100%;
+  height: 190px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 30px 150px;
+  padding-left: 114px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.herolight{
+  background-color: hsl(225, 100%, 98%);
+}
+.hero-dark{
+  background-color: hsl(232, 19%, 15%);
+}
+.heading1{
+  font-weight: 700;
+  color: hsl(230, 17%, 14%);
+  font-size: 24px;
+}
+.heading1-dark {
+  color: white;
+}
+.heading2{
+  font-weight: 700;
+  color: hsl(228, 12%, 44%);
+  font-size: 11px;
+}
+.heading2-dark{
+  color: hsl(228, 34%, 66%);
+}
+/* Toggle button */
+.btn{
+  color: hsl(228, 12%, 44%);
+  font-weight: 700;
+  font-size: 11px;
+  width: auto;
+  height: 22px;
+  position: absolute;
+  top: 60px;
+  z-index: 5;
+  right: 120px;
+}
+.tgltxt{
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 6px;
+}
+/* Actual toggle button */
+.toggle{
+  background-color: hsl(230, 22%, 74%);
+  width: 40px;
+  height: 18px;
+  padding: 2px;
+  border-radius: 16px;
+  vertical-align: middle;
+  display: inline-block;
+  cursor: pointer;
+}
+.toggledark{
+  background-image: linear-gradient(hsl(210, 78%, 56%), hsl(146, 68%, 55%)); !important
+}
+#tglbtn{
+  width: 18px;
+  height: 18px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  transition: all ease-out 0.2s;
+}
+.tglbtndark{
+  margin-left: 21px;
+  transition: all ease-out 0.2s;
+}
+
+/* Bigger cards container */
+.container1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 100px;
+}
+.card{
+  width: 240px;
+  height: 190px;
+  z-index: 2;
+  margin: 16px;
+  text-align: center;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: hsl(227, 47%, 96%);
+  cursor: pointer;
+  transition: all ease 0.2s;
+}
+.card-dark{
+  background-color: hsl(228, 28%, 20%);
+  color: hsl(228, 34%, 66%);
+}
+.card:hover{
+  background-color: #e1e3f0;
+}
+.card-dark:hover{
+  background-color: #333a56;
+}
+#card1{
+  border-top: 3px solid hsl(195, 100%, 50%);
+}
+#card2{
+  border-top: 3px solid hsl(203, 89%, 53%);
+}
+#card3{
+  border-top: 3px solid hsl(348, 97%, 39%);
+}
+#card4{
+  border-top: 3px solid hsl(348, 97%, 39%);
+}
+.icon{
+  display: inline;
+  vertical-align: middle;
+  padding-top: 10px;
+}
+.name{
+  font-weight: 700;
+  display: inline-block;
+  padding-left: 10px;
+  padding-top: 10px;
+  vertical-align: middle;
+}
+.followers{
+  font-weight: 700;
+  color: hsl(230, 17%, 14%);
+  font-size: 54px;
+  padding-top: 12px;
+}
+.followers-dark{
+  color: white;
+}
+.smlhead{
+  color: hsl(228, 12%, 44%);
+  font-weight: 400;
+  font-size:11px;
+  padding-bottom: 10px;
+  letter-spacing: 4px;
+}
+.arrowhead{
+  display: inline;
+  padding-top: 10px;
+  padding-right: 2px;
+  vertical-align: middle;
+}
+.green{
+  color: hsl(163, 72%, 41%);
+  font-weight: 700;
+  padding-top: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.red{
+  color: hsl(356, 69%, 56%);
+  font-weight: 700;
+  padding-top: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.overview{
+  font-weight: 700;
+  color: hsl(228, 12%, 44%);
+  font-size: 20px;
+  margin-left: 110px;
+  padding-top: 20px;
+  margin-bottom: 2px;
+}
+.overview-dark{
+  color: hsl(228, 34%, 66%);
+}
+.container2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.smlcard{
+  width: 240px;
+  height: 90px;
+  z-index: 2;
+  margin: 16px;
+  margin-bottom: 3px;
+  text-align: center;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px;
+  cursor: pointer;
+  background-color: hsl(227, 47%, 96%);
+
+  transition: all ease 0.2s;
+}
+.smlcard-light{
+  background-color: hsl(227, 47%, 96%);
+}
+.smlcard-dark{
+  background-color: hsl(228, 28%, 20%);
+}
+.smlcard:hover{
+  background-color: #e1e3f0;
+}
+.smlcard-dark:hover{
+  background-color: #333a56;
+}
+.name2{
+  font-weight: 700;
+  display: inline-block;
+  padding-top: 10px;
+  vertical-align: middle;
+}
+.name2-dark{
+  color: hsl(228, 34%, 66%);
+}
+.num{
+  font-weight: 700;
+  font-size: 26px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 10px;
+  color: hsl(230, 17%, 14%);
+}
+.num-dark{
+  color: white;
+}
+.icon2{
+  margin-left: 100px;
+}
+.icon3{
+  margin-left: 130px;
+}
+.arrow2{
+  margin-left: 120px;
+}
+.arrow3{
+  margin-left: 100px;
+}
+.arrow4{
+  margin-left: 90px;
+}
